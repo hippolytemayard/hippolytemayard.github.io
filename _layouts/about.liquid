@@ -76,5 +76,12 @@ layout: default
     {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
       {% include newsletter.liquid center=true %}
     {% endif %}
+
+    <!-- Custom map -->
+    {% if page.map_html %}
+      <div class="map-container" style="margin-top: 2rem; text-align: center;">
+        {{ page.map_html }}
+      </div>
+    {% endif %}
   </article>
 </div>

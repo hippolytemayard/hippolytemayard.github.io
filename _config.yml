@@ -2,21 +2,20 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Portfolio de Hippolyte Mayard
+title: Hippolyte Mayard
 first_name: Hippolyte
-middle_name: R.
-last_name: Name
+middle_name: 
+last_name: Mayard
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  Feel free to reach out via email!
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Deep Learning engineer specialized in computer vision and medical imaging. Currently working at Allisone.ai.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
+keywords: deep-learning, computer-vision, medical-imaging, AI, machine-learning, hippolyte-mayard
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: 🧠 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://hippolytemayard.github.io # the base hostname & protocol for your site
 baseurl: ""
@@ -86,8 +85,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_name: Hippolyte's Blog # blog_name will be displayed in your blog page
+blog_description: Deep Learning, Computer Vision & Medical Imaging
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -203,7 +202,7 @@ plugins:
   - jekyll-feed
   - jekyll-get-json
   - jekyll-imagemagick
-  - jekyll-jupyter-notebook
+  # - jekyll-jupyter-notebook  # Disabled due to encoding issues
   - jekyll-link-attributes
   - jekyll-minifier
   - jekyll-paginate-v2
@@ -264,8 +263,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Mayard]
+  first_name: [Hippolyte, H.]
 
   style: apa
   locale: en
@@ -348,7 +347,7 @@ external_links:
 # MAKE SURE imagemagick is installed and on your PATH before enabling imagemagick. In a terminal, run:
 #   convert -version
 imagemagick:
-  enabled: true # enables responsive images for your site (recommended, see https://github.com/alshedivat/al-folio/issues/537)
+  enabled: false # disabled - imagemagick not installed locally
   widths:
     - 480
     - 800

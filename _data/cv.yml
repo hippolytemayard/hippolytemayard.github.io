@@ -1,97 +1,87 @@
-- title: General Information
-  type: map
+- title: Experience
+  type: time_table
   contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+    - title: Computer Vision Scientist
+      institution: Pearl AI
+      year: 2025 - Present
+      description:
+        - Development of 2D and 3D vision models for dental imaging analysis (intraoral radiographs, panoramic X-rays, CBCT)
+        - Optimization of production diagnostic models, improving robustness, performance, and large-scale clinical adoption
+        - Product-clinical collaboration, translating research into concrete features with measurable impact on dental workflows
+        - Contribution to regulatory processes (FDA, CE, technical documentation) supporting safety and clinical efficacy requirements
+        - Large-scale inference deployment and integration, ensuring availability, controlled latency, and reliability for end users
+    - title: Lead AI Engineer
+      institution: Theodo Data & AI, Paris
+      year: 2024
+      description:
+        - Surgitec-Robotics - Developed 3D brain vessel segmentation and brain analysis models
+    - title: Deep Learning Engineer
+      institution: Allisone.ai
+      year: 2021 - 2024
+      description:
+        - Developed AI solutions for dental imaging
+        - Computer vision and medical image analysis
+        - Built production-ready deep learning models
+    - title: Research AI Engineer
+      institution: Inria
+      year: 2021 (apr-oct)
+      description:
+        - 3D computer vision research
+        - Deep learning and Medical Imaging
+    - title: Data Scientist
+      institution: Société Générale
+      year: 2020
+      description:
+        - Data science projects in the banking sector
+
+- title: Teaching
+  type: time_table
+  contents:
+    - title: Deep Learning
+      institution: Dauphine-PSL Tunis
+      year: Present
+      description: Introduction to Deep Learning for BDIA Master students
+    - title: Deep Learning for Image Analysis
+      institution: Dauphine-PSL Tunis
+      year: Present
+      description: Computer vision and image analysis with deep learning
+    - title: Introduction to Deep Learning
+      institution: Sorbonne Data Analytics
+      year: Present
+      description: DU program - fundamentals of deep learning
+    - title: Introduction to Deep Learning
+      institution: Datagong.io
+      year: Present
+      description: Professional training in deep learning
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: MSc Computer Vision and Medical Imaging (MVA)
+      institution: ENS Paris-Saclay, France
+      year: 2021
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Focus on computer vision, medical imaging, and deep learning
+    - title: MSc Artificial Intelligence (IASD)
+      institution: Université Paris-Dauphine PSL, France
+      year: 2020
       description:
-        - Description 1.
-        - Description 2.
-
-- title: Experience
-  type: time_table
-  contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+        - Specialization in machine learning and AI
+    - title: BSc Applied Mathematics
+      institution: Université Paris-Dauphine PSL, France
+      year: 2018
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+        - Strong foundations in mathematics and statistics
 
 - title: Open Source Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - title: <a href="https://github.com/hippolytemayard/teeth-3d-mesh-segmentation">3D Teeth Mesh Segmentation</a>
+      year: 2022
+      description: Implementation of MeshSegNet for automated dental surface labeling (MICCAI 2022 Challenge)
+    - title: <a href="https://github.com/hippolytemayard/certainty-pooling-mil">Certainty Pooling for MIL</a>
+      year: 2021
+      description: Multiple Instance Learning implementation for breast cancer metastases detection
+    - title: <a href="https://github.com/hippolytemayard/chest-x-ray-generative-models">Chest X-ray Generative Models</a>
+      year: 2021
+      description: Denoising Diffusion Probabilistic Model for chest X-ray generation

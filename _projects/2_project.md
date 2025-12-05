@@ -1,81 +1,53 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
+title: Chest X-ray DDPM
+description: Denoising Diffusion Probabilistic Model for chest X-ray image generation
+img: assets/img/project2/diffusion_chest.png
 importance: 2
-category: work
-giscus_comments: true
+category: research
+github: https://github.com/hippolytemayard/chest-x-ray-generative-models
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Implementation of [Denoising Diffusion Probabilistic Model](https://arxiv.org/abs/2006.11239) for chest X-ray image generation.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+The dataset used for this project is an open dataset and is available publicly on [Kaggle](https://www.kaggle.com/datasets/francismon/curated-covid19-chest-xray-dataset).
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project2/diffusion_chest.png" title="Diffusion process" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    The diffusion process for chest X-ray generation.
 </div>
+
+## Dataset
+
+For this project, we utilize an open dataset called the Curated COVID-19 Chest X-ray Dataset. This dataset contains a collection of chest X-ray images, including those of patients with COVID-19, pneumonia, and other respiratory conditions. The dataset is publicly available on Kaggle, providing a rich and diverse set of chest X-ray images for training and evaluation.
+
+## Implementation Details
+
+We base our implementation on an existing PyTorch implementation of DDPM (see [GitHub](https://github.com/lucidrains/denoising-diffusion-pytorch)). This implementation serves as a solid foundation for our project, allowing us to leverage the power of PyTorch and build upon the existing codebase. By adapting the original DDPM framework to the specific task of generating chest X-ray images, we can explore the potential of this model in the medical imaging domain.
+
+## Methodology
+
+The Denoising Diffusion Probabilistic Model operates by iteratively applying a series of diffusion steps to a noise vector, gradually transforming it into a realistic image. This process involves denoising the image at each step using a trainable denoiser network. The model is trained by maximizing the likelihood of the target images in the training dataset. By optimizing the model parameters, we can generate high-quality chest X-ray images that capture the characteristics of different respiratory conditions.
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project2/generated-sample.png" title="Generated samples" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    Generated chest X-ray samples using our DDPM implementation.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+## Conclusion
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+In this project, we propose the implementation of a Denoising Diffusion Probabilistic Model for generating chest X-ray images. By leveraging the power of DDPM and the availability of the Curated COVID-19 Chest X-ray Dataset, we aim to generate realistic and diverse chest X-ray images that can aid in medical research, diagnosis, and education.
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+## References
 
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+1. Ho, J., Chen, X., Srinivas, A., Duan, Y., Abbeel, P., & Arora, S. (2020). Denoising Diffusion Probabilistic Models. *arXiv preprint arXiv:2006.11239*.
+2. Curated COVID-19 Chest X-ray Dataset. [Kaggle](https://www.kaggle.com/datasets/francismon/curated-covid19-chest-xray-dataset).
+3. Lucidrains. Denoising Diffusion Probabilistic Model - PyTorch. [GitHub](https://github.com/lucidrains/denoising-diffusion-pytorch).

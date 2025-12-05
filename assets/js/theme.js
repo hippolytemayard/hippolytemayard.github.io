@@ -1,15 +1,8 @@
 // Has to be in the head tag, otherwise a flicker effect will occur.
 
-// Toggle through light, dark, and system theme settings.
+// Theme toggle disabled - dark mode only
 let toggleThemeSetting = () => {
-  let themeSetting = determineThemeSetting();
-  if (themeSetting == "system") {
-    setThemeSetting("light");
-  } else if (themeSetting == "light") {
-    setThemeSetting("dark");
-  } else {
-    setThemeSetting("system");
-  }
+  // Do nothing - dark mode is forced
 };
 
 // Change the theme setting and apply the theme.
@@ -251,14 +244,9 @@ let transTheme = () => {
   }, 500);
 };
 
-// Determine the expected state of the theme toggle, which can be "dark", "light", or
-// "system". Default is "system".
+// Force dark theme only - no switching allowed
 let determineThemeSetting = () => {
-  let themeSetting = localStorage.getItem("theme");
-  if (themeSetting != "dark" && themeSetting != "light" && themeSetting != "system") {
-    themeSetting = "system";
-  }
-  return themeSetting;
+  return "dark";
 };
 
 // Determine the computed theme, which can be "dark" or "light". If the theme setting is
@@ -278,21 +266,14 @@ let determineComputedTheme = () => {
 };
 
 let initTheme = () => {
-  let themeSetting = determineThemeSetting();
+  // Force dark mode always
+  setThemeSetting("dark");
 
-  setThemeSetting(themeSetting);
-
-  // Add event listener to the theme toggle button.
+  // Hide the theme toggle button
   document.addEventListener("DOMContentLoaded", function () {
     const mode_toggle = document.getElementById("light-toggle");
-
-    mode_toggle.addEventListener("click", function () {
-      toggleThemeSetting();
-    });
-  });
-
-  // Add event listener to the system theme preference change.
-  window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", ({ matches }) => {
-    applyTheme();
+    if (mode_toggle) {
+      mode_toggle.style.display = "none";
+    }
   });
 };
