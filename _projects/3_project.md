@@ -23,7 +23,7 @@ The dataset used for this project is the challenge 3DTeethSeg22 dataset (associa
 
 ## Dataset
 
-The *3DTeethSeg22_challenge* dataset contains a collection of 3D dental surface scans obtained from intraoral scanners. These scans represent the raw dental surfaces of patients and serve as the input data for the segmentation task. The dataset includes a diverse range of dental conditions and variations, capturing different teeth shapes, sizes, and occlusions. A total of 1800 3D intra-oral scans have been collected for 900 patients covering their upper and lower jaws separately.
+The _3DTeethSeg22_challenge_ dataset contains a collection of 3D dental surface scans obtained from intraoral scanners. These scans represent the raw dental surfaces of patients and serve as the input data for the segmentation task. The dataset includes a diverse range of dental conditions and variations, capturing different teeth shapes, sizes, and occlusions. A total of 1800 3D intra-oral scans have been collected for 900 patients covering their upper and lower jaws separately.
 
 ## Implementation Details
 

@@ -8,7 +8,7 @@ category: research
 github: https://github.com/hippolytemayard/certainty-pooling-mil
 ---
 
-This project proposes an implementation of [*Certainty Pooling for Multiple Instance Learning, Gildenblat et al.*](https://arxiv.org/pdf/2008.10548.pdf) on the data challenge [**Detecting breast cancer metastases**](https://challengedata.ens.fr/participants/challenges/18/) hosted by Owkin.
+This project proposes an implementation of [_Certainty Pooling for Multiple Instance Learning, Gildenblat et al._](https://arxiv.org/pdf/2008.10548.pdf) on the data challenge [**Detecting breast cancer metastases**](https://challengedata.ens.fr/participants/challenges/18/) hosted by Owkin.
 
 ## Introduction
 

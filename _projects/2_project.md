@@ -48,6 +48,6 @@ In this project, we propose the implementation of a Denoising Diffusion Probabil
 
 ## References
 
-1. Ho, J., Chen, X., Srinivas, A., Duan, Y., Abbeel, P., & Arora, S. (2020). Denoising Diffusion Probabilistic Models. *arXiv preprint arXiv:2006.11239*.
+1. Ho, J., Chen, X., Srinivas, A., Duan, Y., Abbeel, P., & Arora, S. (2020). Denoising Diffusion Probabilistic Models. _arXiv preprint arXiv:2006.11239_.
 2. Curated COVID-19 Chest X-ray Dataset. [Kaggle](https://www.kaggle.com/datasets/francismon/curated-covid19-chest-xray-dataset).
 3. Lucidrains. Denoising Diffusion Probabilistic Model - PyTorch. [GitHub](https://github.com/lucidrains/denoising-diffusion-pytorch).
