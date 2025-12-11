@@ -96,7 +96,12 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-certainty-pooling-for-mil",
+          section: "News",},{id: "projects-yolo-v11-open-source",
+          title: 'YOLO v11 Open Source',
+          description: "Clean, modular, Apache 2.0 licensed YOLOv11 implementation in pure PyTorch with multi-task support",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/0_project/";
+            },},{id: "projects-certainty-pooling-for-mil",
           title: 'Certainty Pooling for MIL',
           description: "Implementation of Certainty Pooling for Multiple Instance Learning on breast cancer metastases detection",
           section: "Projects",handler: () => {
