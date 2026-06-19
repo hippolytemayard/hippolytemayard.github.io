@@ -23,7 +23,7 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 
-map_html: <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=82660d&w=400&t=n&d=UHFum2zR4IKpODq4zfPeDWQIhvfNo77TqyaJMIgeFxE&cmo=feff53&cmn=6acc3a&co=004d84'></script>
+map_html: <script type='text/javascript' id='mapmyvisitors' src='https://mapmyvisitors.com/map.js?cl=0a78d8&w=300&t=n&d=srncnzdP_Lyw0GnjEMFSAewygtNHmp17ajsJPuG2plU&co=313368&cmn=218921&cmo=ffae53'></script>
 ---
 
 I am an Applied Deep Learning engineer specializing in Computer Vision for medical imaging, designing AI systems that drive clinical efficiency, reduce operational friction, and support data-driven decision-making for healthcare providers and industry stakeholders.
