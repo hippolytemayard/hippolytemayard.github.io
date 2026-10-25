@@ -1,5 +1,6 @@
 ---
 layout: page
+permalink: /code/teeth-3d-mesh-segmentation/
 title: teeth-3d-mesh-segmentation
 description: MeshSegNet for automated tooth labelling on raw intra-oral 3D scans — 3DTeethSeg22 challenge (MICCAI 2022).
 img: assets/img/project3/preds_vs_gt.gif

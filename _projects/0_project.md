@@ -1,5 +1,6 @@
 ---
 layout: page
+permalink: /code/yolov11-pytorch/
 title: yolov11-pytorch
 description: Apache-2.0 re-implementation of YOLOv11 in pure PyTorch — detection, instance segmentation and pose, without the AGPL dependency.
 img: assets/img/project_yolo/showcase.jpg
