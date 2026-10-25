@@ -76,7 +76,7 @@
   }
 }
 
-html[data-theme="dark"] {
+html[data-theme="dark-disabled"] {
   color-scheme: dark;
   --global-bg-color: #{$grey-color-dark};
   --global-code-bg-color: #{$code-bg-color-dark};
