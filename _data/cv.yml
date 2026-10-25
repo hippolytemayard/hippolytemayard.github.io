@@ -6,7 +6,7 @@
       year: 2025 – present
       description:
         - Technical owner of the 3D CBCT pathology program (5 pathologies, 8 anatomical structures); program lead since Feb 2026. Two FDA 510(k) submissions filed; Second Opinion 3D shipped commercially in 7 months.
-        - 2D caries detection on intra-oral and panoramic X-rays used by 50,000+ clinicians in 120+ countries — cut the false-positive rate driving churn at constant recall; shipped caries progression on top.
+        - 2D caries detection on intra-oral and panoramic X-rays used by 50,000+ clinicians in 120+ countries — cut false positives by 25% at constant recall, reducing the churn they were driving; shipped caries progression on top.
         - Operating-point design for real users — clinician personas (recall-first vs specificity-first), default threshold set between them, per-site sensitivity presets with per-class PR curves, per-device robustness checks.
         - Regulatory evidence for two 510(k)s — validation protocol, locked test set with enforced train/test independence, performance reports, technical file.
         - Production inference on AWS, versioned algorithm packages, MLflow tracking, GitLab CI.

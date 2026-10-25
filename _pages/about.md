@@ -17,7 +17,7 @@ pipeline:
     link: /publications/
     link_text: Publications
   - stage: Ship
-    text: Founding deep-learning engineer at Allisone.ai, where the first computer-vision models powered 5+ clinical features. At Pearl, 2D caries detection used by 50,000+ clinicians in 120+ countries, with the false-positive rate cut at constant recall.
+    text: Founding deep-learning engineer at Allisone.ai, where the first computer-vision models powered 5+ clinical features. At Pearl, 2D caries detection used by 50,000+ clinicians in 120+ countries, with false positives cut by 25% at constant recall.
     link: /products/
     link_text: Products
   - stage: FDA clearance

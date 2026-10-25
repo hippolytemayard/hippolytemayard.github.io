@@ -26,7 +26,7 @@ nav_order: 1
     <span class="product-org">Pearl AI · 2025 – present</span>
   </div>
   <p><strong>Role.</strong> Owner of the caries model on intra-oral and panoramic X-rays.</p>
-  <p><strong>Scope.</strong> Cut the false-positive rate that was driving churn, at constant recall. Operating points designed for two clinical personas (recall-first vs specificity-first), default threshold set between them, per-site sensitivity presets with per-class PR curves, per-device robustness checks. Caries progression shipped on top.</p>
+  <p><strong>Scope.</strong> Cut false positives by 25% at constant recall, by investigating real-world failure modes through systematic re-annotation of dismissed clinical cases and retraining the detection model — directly reducing user churn. Operating points designed for two clinical personas (recall-first vs specificity-first), default threshold set between them, per-site sensitivity presets with per-class PR curves, per-device robustness checks. Caries progression shipped on top.</p>
   <p><strong>Reach.</strong> 50,000+ clinicians, 23,000+ practices, 120+ countries.</p>
 </div>
 
