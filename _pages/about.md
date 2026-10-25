@@ -2,8 +2,6 @@
 layout: home
 title: about
 permalink: /
-nav: true
-nav_order: 0
 
 profile:
   image: prof_pic.jpg
@@ -31,11 +29,9 @@ news:
   - date: Aug 2026
     title: Second Opinion 3D is live
     text: Pearl's CBCT product, built on the 3D pathology program, launched commercially — seven months from first model to release.
-    img: assets/img/news/cbct.jpg
   - date: Feb 2026
     title: Leading the 3D CBCT pathology program
     text: Took over technical leadership of the program; second FDA 510(k) submission prepared and filed during the year.
-    img: assets/img/news/cbct.jpg
   - date: Jan 2025
     title: Joined Pearl AI
     text: Senior ML Scientist on the first dental-AI platform cleared by the FDA for both 2D and 3D imaging. First mandate — the caries model behind the core product.
