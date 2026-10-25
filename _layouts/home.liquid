@@ -45,7 +45,7 @@ layout: default
   <section class="home-news">
     <h2 class="section-title">Timeline</h2>
     {% for n in page.news %}
-      <article class="news-item">
+      <article class="news-item{% if n.img %} has-thumb{% endif %}">
         <div class="news-body">
           <p class="news-date">{{ n.date }}</p>
           <h3 class="news-title">{% if n.link %}<a href="{{ n.link }}">{{ n.title }}</a>{% else %}{{ n.title }}{% endif %}</h3>

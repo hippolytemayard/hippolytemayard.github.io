@@ -59,7 +59,7 @@ footer.fixed-bottom, footer.sticky-bottom { background: $bar; color: #cfd4d9; a 
 // Timeline items (news style)
 .home-pipeline { margin-top: 1.5rem; }
 .home-news { margin-top: 1.5rem; }
-.news-item { display: grid; grid-template-columns: minmax(0,1fr) 260px; gap: 1.5rem; align-items: center;
+.news-item { display: grid; grid-template-columns: 1fr; &.has-thumb { grid-template-columns: minmax(0,1fr) 260px; } gap: 1.5rem; align-items: center;
   border-left: 4px solid $bar; background: #fff; box-shadow: 0 1px 3px rgba(0,0,0,0.08); border-radius: 0 4px 4px 0;
   padding: 1rem 1.2rem; margin-bottom: 1rem;
   .news-date { color: $ink-2; font-size: 0.82rem; margin: 0 0 0.15rem; text-transform: uppercase; letter-spacing: 0.04em; }
