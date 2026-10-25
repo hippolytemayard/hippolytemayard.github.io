@@ -2,45 +2,43 @@
 layout: about
 title: about
 permalink: /
-subtitle: Applied Deep Learning Engineer | Computer Vision for Healthcare
+subtitle: Senior ML Scientist · regulated 2D/3D medical imaging AI · research → FDA 510(k) → production
+location: Treviso, Italy · Remote (CET) · open to EU/US remote
 
 profile:
   align: right
-  image: prof_pic.png
-  image_circular: false # crops the image to make it circular
+  image: prof_pic.jpg
+  image_circular: false
   more_info:
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: true
+social: true
 
-announcements:
-  enabled: false # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+shipped:
+  - title: 3D CBCT pathology program
+    org: Pearl AI · 2025 – present
+    metric: 2 × FDA 510(k) filed
+    text: Sole technical owner. Five pathologies and eight anatomical structures on cone-beam CT; validation protocol, locked test set and technical file for two submissions. Second Opinion 3D shipped commercially in seven months.
+    tags: [3D segmentation, nnU-Net / MONAI, 510(k) evidence]
+  - title: 2D caries detection at scale
+    org: Pearl AI · 2025 – present
+    metric: 50,000+ clinicians · 120+ countries
+    text: Cut the false-positive rate that was driving churn, at constant recall. Operating points designed for two clinical personas (recall-first vs specificity-first), per-site presets, per-device robustness checks.
+    tags: [operating-point design, calibration, production ML]
+  - title: Founding DL engineer
+    org: Allisone.ai · 2021 – 2024
+    metric: 5+ clinical features shipped
+    text: First computer-vision models of the company on 2D panoramic and intra-oral X-rays; detection, segmentation and generative work on CBCT. Allisone went on to raise a €10M Series A.
+    tags: [0 → 1, 2D/3D dental imaging, diffusion pre-training]
 
-latest_posts:
-  enabled: false
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
-
-map_html: <script type='text/javascript' id='mapmyvisitors' src='https://mapmyvisitors.com/map.js?cl=0a78d8&w=300&t=n&d=srncnzdP_Lyw0GnjEMFSAewygtNHmp17ajsJPuG2plU&co=313368&cmn=218921&cmo=ffae53'></script>
+now:
+  - External lecturer in Deep Learning for Image Analysis, Université Paris Dauphine-PSL (Master IASD / BDIA), since 2022.
+  - Participant in the CATHACTION challenge at MICCAI 2026 (catheter & guidewire segmentation in X-ray fluoroscopy).
+  - Maintaining an Apache-2.0 YOLOv11 re-implementation in pure PyTorch.
 ---
 
-I am an Applied Deep Learning engineer specializing in Computer Vision for medical imaging, designing AI systems that drive clinical efficiency, reduce operational friction, and support data-driven decision-making for healthcare providers and industry stakeholders.
+I build computer-vision systems for medical imaging and take them all the way to regulated production: data and model design, clinical validation, FDA 510(k) evidence, deployment and monitoring. Six years in, two companies, one product line I own end-to-end.
 
-At [Pearl AI](https://www.hellopearl.com/), I contribute to the development and scaling of production-grade diagnostic models and inference platforms deployed across real-world dental practices. My work focuses on improving model reliability, streamlining integration, and supporting the delivery of AI solutions that generate measurable clinical and operational value at scale.
+What I care about is not the Dice score. It is whether the model does the right thing for a given clinician on a given device at a given threshold — and whether I can prove it on a locked test set before anyone sees it in a clinic.
 
-I operate at the intersection of engineering, product, and applied research, translating state-of-the-art computer vision into commercial solutions aligned with regulatory, performance, and go-to-market constraints.
-
-In parallel, I teach Deep Learning and Computer Vision, with a strong emphasis on applied methodologies, real-world deployment constraints, and the translation of research outcomes into production-ready solutions.
-
-## Education 📚
-
-**Master's degrees** 👨🏼‍🎓
-
-- **Computer Vision and Medical Imaging, MVA** - _ENS Paris-Saclay_, 2021
-- **Master's in Artificial Intelligence, IASD** - _Dauphine PSL_, 2020
-
-**Bachelor degree** 🎓
-
-- **Bachelor's degree in Applied Mathematics** - _Dauphine PSL_, 2018
+Background: MVA (ENS Paris-Saclay) and IASD (Dauphine PSL); research engineer at INRIA Epione on CBCT metal-artefact reduction; publications at MICCAI 2023 (DGM workshop) and medRxiv 2024.

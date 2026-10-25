@@ -1,14 +1,8 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - hippolytemayard
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - hippolytemayard/yolov11-pytorch
+  - hippolytemayard/teeth-3d-mesh-segmentation

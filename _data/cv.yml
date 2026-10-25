@@ -1,90 +1,97 @@
 - title: Experience
   type: time_table
   contents:
-    - title: Computer Vision Scientist
-      institution: Pearl AI
-      year: 2025 - Present
+    - title: Senior ML Scientist
+      institution: Pearl AI — US dental AI, FDA-cleared 2D + 3D imaging · Remote (Italy)
+      year: 2025 – present
       description:
-        - Development of 2D and 3D vision models for dental imaging analysis (intraoral radiographs, panoramic X-rays, CBCT)
-        - Optimization of production diagnostic models, improving robustness, performance, and large-scale clinical adoption
-        - Product-clinical collaboration, translating research into concrete features with measurable impact on dental workflows
-        - Contribution to regulatory processes (FDA, CE, technical documentation) supporting safety and clinical efficacy requirements
-        - Large-scale inference deployment and integration, ensuring availability, controlled latency, and reliability for end users
+        - Technical owner of the 3D CBCT pathology program (5 pathologies, 8 anatomical structures); program lead since Feb 2026. Two FDA 510(k) submissions filed; Second Opinion 3D shipped commercially in 7 months.
+        - 2D caries detection on intra-oral and panoramic X-rays used by 50,000+ clinicians in 120+ countries — cut the false-positive rate driving churn at constant recall; shipped caries progression on top.
+        - Operating-point design for real users — clinician personas (recall-first vs specificity-first), default threshold set between them, per-site sensitivity presets with per-class PR curves, per-device robustness checks.
+        - Regulatory evidence for two 510(k)s — validation protocol, locked test set with enforced train/test independence, performance reports, technical file.
+        - Production inference on AWS, versioned algorithm packages, MLflow tracking, GitLab CI.
     - title: Lead AI Engineer
-      institution: Theodo Data & AI, Paris
-      year: 2024
+      institution: Theodo Data & AI · Paris
+      year: Aug 2024 – Jan 2025
       description:
-        - Surgitec-Robotics - Developed 3D brain vessel segmentation and brain analysis models
-    - title: Deep Learning Engineer
-      institution: Allisone.ai
-      year: 2021 - 2024
+        - Surgitec-Robotics — 3D brain-vessel segmentation for surgical trajectory planning in minimally invasive neurosurgery.
+    - title: Founding Deep Learning Engineer
+      institution: Allisone.ai · Paris
+      year: Nov 2021 – Jul 2024
       description:
-        - Developed AI solutions for dental imaging
-        - Computer vision and medical image analysis
-        - Built production-ready deep learning models
-    - title: Research AI Engineer
-      institution: Inria
-      year: 2021 (apr-oct)
+        - First CV models of the company — classification, detection and segmentation on 2D panoramic and intra-oral dental X-rays, powering 5+ clinical diagnostic features.
+        - Detection, segmentation and generative modelling on 3D CBCT; diffusion-model pre-training for dental segmentation (MICCAI 2023 DGM workshop).
+        - Company raised a €10M Series A on the product these models powered.
+    - title: Research Engineer
+      institution: INRIA, team Epione · Sophia Antipolis
+      year: Apr – Nov 2021
       description:
-        - 3D computer vision research
-        - Deep learning and Medical Imaging
+        - Metal-artefact reduction on cone-beam CT, supervised by Hervé Delingette.
     - title: Data Scientist
-      institution: Société Générale
-      year: 2020
+      institution: Société Générale, Data Lab GTPS · Paris La Défense
+      year: 2019 – 2020
       description:
-        - Data science projects in the banking sector
+        - FX margin analysis on transaction data.
 
 - title: Teaching
   type: time_table
   contents:
-    - title: Deep Learning
-      institution: Dauphine-PSL Tunis
-      year: Present
-      description: Introduction to Deep Learning for BDIA Master students
-    - title: Deep Learning for Image Analysis
-      institution: Dauphine-PSL Tunis
-      year: Present
-      description: Computer vision and image analysis with deep learning
-    - title: Introduction to Deep Learning
-      institution: Sorbonne Data Analytics
-      year: Present
-      description: DU program - fundamentals of deep learning
-    - title: Introduction to Deep Learning
-      institution: Datagong.io
-      year: Present
-      description: Professional training in deep learning
+    - title: External Lecturer — Deep Learning for Image Analysis
+      institution: Université Paris Dauphine-PSL · Master IASD / BDIA (Paris, Tunis)
+      year: 2022 – present
+      description: CNNs, detection, segmentation, deployment constraints; research-to-production emphasis.
+    - title: External Lecturer — Deep Learning
+      institution: Université Paris Dauphine-PSL · Master BDIA (Tunis)
+      year: 2022 – present
+      description: Fundamentals, optimisation, practical applications.
 
 - title: Education
   type: time_table
   contents:
-    - title: MSc Computer Vision and Medical Imaging (MVA)
-      institution: ENS Paris-Saclay, France
-      year: 2021
-      description:
-        - Focus on computer vision, medical imaging, and deep learning
-    - title: MSc Artificial Intelligence (IASD)
-      institution: Université Paris-Dauphine PSL, France
-      year: 2020
-      description:
-        - Specialization in machine learning and AI
-    - title: BSc Applied Mathematics
-      institution: Université Paris-Dauphine PSL, France
-      year: 2018
-      description:
-        - Strong foundations in mathematics and statistics
+    - title: MSc MVA — Mathematics, Vision, Learning
+      institution: ENS Paris-Saclay
+      year: 2020 – 2021
+    - title: MSc IASD — Artificial Intelligence & Data Science
+      institution: PSL (Dauphine PSL, ENS, Mines ParisTech)
+      year: 2019 – 2020
+    - title: BSc Applied Mathematics (with honours)
+      institution: Université Paris-Dauphine PSL
+      year: 2014 – 2018
 
-- title: Open Source Projects
+- title: Publications
   type: time_table
   contents:
-    - title: <a href="https://github.com/hippolytemayard/yolov11-open-source">YOLO v11 Open Source</a>
+    - title: <a href="https://www.medrxiv.org/content/10.1101/2024.02.17.24301683v1">SISTR — Sinus and Inferior alveolar nerve Segmentation with Targeted Refinement on CBCT</a>
+      institution: medRxiv
+      year: 2024
+    - title: <a href="https://arxiv.org/abs/2307.14066">Pre-Training with Diffusion Models for Dental Radiography Segmentation</a>
+      institution: MICCAI 2023, Deep Generative Models workshop
+      year: 2023
+
+- title: Open source
+  type: time_table
+  contents:
+    - title: <a href="https://github.com/hippolytemayard/yolov11-pytorch">yolov11-pytorch</a>
       year: 2025
-      description: Clean, modular, Apache 2.0 licensed YOLOv11 implementation in pure PyTorch. Multi-task support for detection, segmentation, and pose estimation.
-    - title: <a href="https://github.com/hippolytemayard/teeth-3d-mesh-segmentation">3D Teeth Mesh Segmentation</a>
+      description: Apache-2.0 YOLOv11 re-implementation in pure PyTorch — detection, segmentation, pose.
+    - title: <a href="https://github.com/hippolytemayard/teeth-3d-mesh-segmentation">teeth-3d-mesh-segmentation</a>
       year: 2022
-      description: Implementation of MeshSegNet for automated dental surface labeling (MICCAI 2022 Challenge)
-    - title: <a href="https://github.com/hippolytemayard/certainty-pooling-mil">Certainty Pooling for MIL</a>
-      year: 2021
-      description: Multiple Instance Learning implementation for breast cancer metastases detection
-    - title: <a href="https://github.com/hippolytemayard/chest-x-ray-generative-models">Chest X-ray Generative Models</a>
-      year: 2021
-      description: Denoising Diffusion Probabilistic Model for chest X-ray generation
+      description: MeshSegNet for tooth labelling on intra-oral 3D scans (3DTeethSeg22, MICCAI 2022).
+
+- title: Skills
+  type: nested_list
+  contents:
+    - title: Medical imaging
+      items:
+        - 3D segmentation & detection (CBCT, CT), nnU-Net, MONAI, TorchIO, SimpleITK, pydicom
+        - Operating-point design, calibration, PR analysis per class / per site / per device
+        - FDA 510(k) evidence — validation protocol, locked test sets, performance reports, technical file
+    - title: ML engineering
+      items:
+        - Python, PyTorch, ONNX; AWS (SageMaker), Docker, Kubernetes, MLflow, FastAPI, GitLab CI
+        - Versioned algorithm packages, inference services, model monitoring
+
+- title: Languages
+  type: list
+  contents:
+    - French (native) · English (fluent) · Italian (fluent) · German (elementary)

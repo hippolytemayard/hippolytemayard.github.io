@@ -1,0 +1,28 @@
+
+/* Site-specific components (home page) */
+.post-header .desc.location { color: var(--global-text-color-light); font-size: 0.95rem; margin-top: -0.4rem; }
+.hero-links { display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 0.6rem 0 1.4rem; }
+.hero-links .btn {
+  border: 1px solid var(--global-theme-color); color: var(--global-theme-color);
+  background: transparent; border-radius: 6px; padding: 0.3rem 0.8rem; font-size: 0.85rem; text-transform: none;
+  &:hover { background: var(--global-theme-color); color: var(--global-hover-text-color); }
+}
+.shipped { display: grid; grid-template-columns: 1fr; gap: 1rem; margin-bottom: 1.5rem; }
+.shipped-card {
+  border: 1px solid var(--global-divider-color); border-radius: 10px; padding: 1.1rem 1.3rem;
+  background: var(--global-card-bg-color);
+  h3 { font-size: 1.1rem; margin: 0 0 0.15rem; font-weight: 600; }
+  p { margin: 0.5rem 0 0; font-size: 0.95rem; }
+}
+.shipped-head { display: flex; justify-content: space-between; align-items: flex-start; gap: 1rem; flex-wrap: wrap; }
+.shipped-org { color: var(--global-text-color-light); font-size: 0.85rem; margin: 0 !important; }
+.shipped-metric {
+  color: var(--global-theme-color); font-weight: 600; font-size: 0.95rem; white-space: nowrap;
+  border-left: 3px solid var(--global-theme-color); padding-left: 0.6rem;
+}
+.shipped-tags { margin-top: 0.7rem; display: flex; flex-wrap: wrap; gap: 0.4rem;
+  span { font-size: 0.75rem; padding: 0.15rem 0.55rem; border-radius: 999px;
+    background: color-mix(in srgb, var(--global-theme-color) 12%, transparent); color: var(--global-theme-color); }
+}
+ul.now { padding-left: 1.2rem; li { margin-bottom: 0.35rem; } }
+.profile img { max-width: 220px; }
