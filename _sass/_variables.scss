@@ -18,7 +18,7 @@ $green-color-lime: #b7d12a !default;
 $green-color-dark: #009f06 !default;
 $green-color-light: #ddffdd !default;
 $green-color-bright: #11d68b !default;
-$purple-color: #0f6e7a !default; // site accent (deep teal) — name kept for theme compatibility
+$purple-color: #1a56c4 !default; // link/accent blue — variable name kept for theme compatibility
 $light-purple-color: color.adjust($purple-color, $lightness: 25%);
 $pink-color: #f92080 !default;
 $pink-color-light: #ffdddd !default;
@@ -26,11 +26,11 @@ $yellow-color: #efcc00 !default;
 
 $grey-color: #828282 !default;
 $grey-color-light: color.adjust($grey-color, $lightness: 40%);
-$grey-color-dark: #1c1c1d;
+$grey-color-dark: #2f3640;
 $grey-900: #212529;
 
-$white-color: #fbfaf7 !default;
-$black-color: #1a1a1a !default;
+$white-color: #ffffff !default;
+$black-color: #22262a !default;
 
 // Theme colors
 

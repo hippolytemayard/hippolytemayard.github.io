@@ -1,28 +1,80 @@
+/* ---------- Site-specific styles (home, products) ---------- */
 
-/* Site-specific components (home page) */
-.post-header .desc.location { color: var(--global-text-color-light); font-size: 0.95rem; margin-top: -0.4rem; }
-.hero-links { display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 0.6rem 0 1.4rem; }
-.hero-links .btn {
-  border: 1px solid var(--global-theme-color); color: var(--global-theme-color);
-  background: transparent; border-radius: 6px; padding: 0.3rem 0.8rem; font-size: 0.85rem; text-transform: none;
-  &:hover { background: var(--global-theme-color); color: var(--global-hover-text-color); }
+$ink: #22262a;
+$ink-2: #4a5158;
+$rule: #e3e6e9;
+$bar: #2f3640;
+$accent: #1a56c4;
+
+body { color: $ink; }
+
+// Navbar: dark slate bar, like a department site
+#navbar {
+  background: $bar !important; border-bottom: 0;
+  .navbar-brand, .nav-link { color: #e9ecef !important; }
+  .nav-link:hover, .nav-item.active .nav-link { color: #ffffff !important; }
+  .navbar-brand.title { font-weight: 700; letter-spacing: 0.02em; text-transform: uppercase; font-size: 1.05rem; }
+  .icon-bar { background: #e9ecef; }
 }
-.shipped { display: grid; grid-template-columns: 1fr; gap: 1rem; margin-bottom: 1.5rem; }
-.shipped-card {
-  border: 1px solid var(--global-divider-color); border-radius: 10px; padding: 1.1rem 1.3rem;
-  background: var(--global-card-bg-color);
-  h3 { font-size: 1.1rem; margin: 0 0 0.15rem; font-weight: 600; }
-  p { margin: 0.5rem 0 0; font-size: 0.95rem; }
+footer.fixed-bottom, footer.sticky-bottom { background: $bar; color: #cfd4d9; a { color: #ffffff; } }
+
+.section-title {
+  font-size: 1.35rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.02em;
+  margin: 0 0 1rem; padding-bottom: 0.35rem; position: relative;
+  &::after { content: ""; display: block; width: 3.2rem; height: 3px; background: $bar; margin-top: 0.4rem; }
+  a { color: inherit; &:hover { color: $accent; text-decoration: none; } }
 }
-.shipped-head { display: flex; justify-content: space-between; align-items: flex-start; gap: 1rem; flex-wrap: wrap; }
-.shipped-org { color: var(--global-text-color-light); font-size: 0.85rem; margin: 0 !important; }
-.shipped-metric {
-  color: var(--global-theme-color); font-weight: 600; font-size: 0.95rem; white-space: nowrap;
-  border-left: 3px solid var(--global-theme-color); padding-left: 0.6rem;
+
+.home { padding-top: 0.5rem; }
+.home-grid { display: grid; grid-template-columns: minmax(0, 1fr) 300px; gap: 2.5rem; align-items: start; }
+@media (max-width: 860px) { .home-grid { grid-template-columns: 1fr; } .home-side { order: -1; } }
+
+.home-about p { font-size: 1.02rem; line-height: 1.7; text-align: justify; hyphens: auto; margin-bottom: 1rem; }
+.home-about a, .home-news a, .pipeline a, .products a { color: $accent; text-decoration: none; &:hover { text-decoration: underline; } }
+
+// Profile card
+.profile-card {
+  border: 1px solid $rule; border-radius: 6px; padding: 10px; background: #fff; box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+  img { width: 100%; border-radius: 4px; display: block; }
+  .profile-icons { display: flex; gap: 0.5rem; justify-content: center; margin: 0.8rem 0 0.6rem;
+    a { display: inline-flex; align-items: center; justify-content: center; width: 30px; height: 30px; border-radius: 50%;
+        background: #f1f3f5; color: $ink; font-size: 0.95rem; &:hover { background: $bar; color: #fff; } }
+    .cv-mark { font-weight: 700; font-size: 0.8rem; }
+  }
+  .profile-lines { border-top: 1px solid $rule; padding-top: 0.6rem; font-size: 0.9rem; line-height: 1.45;
+    p { margin: 0 0 0.2rem; color: $ink-2; } .profile-name { color: $ink; font-weight: 700; font-size: 0.95rem; } a { color: $accent; } }
 }
-.shipped-tags { margin-top: 0.7rem; display: flex; flex-wrap: wrap; gap: 0.4rem;
-  span { font-size: 0.75rem; padding: 0.15rem 0.55rem; border-radius: 999px;
-    background: color-mix(in srgb, var(--global-theme-color) 12%, transparent); color: var(--global-theme-color); }
+
+// Pipeline: a real sequence, hence the numbering
+.pipeline { list-style: none; counter-reset: stage; margin: 0 0 2rem; padding: 0;
+  display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.2rem; }
+@media (max-width: 700px) { .pipeline { grid-template-columns: 1fr; } }
+.pipeline-stage { counter-increment: stage; border-top: 3px solid $bar; padding-top: 0.7rem; position: relative;
+  h3 { font-size: 1.05rem; font-weight: 700; margin: 0 0 0.4rem;
+    &::before { content: counter(stage) ". "; color: $accent; } }
+  p { font-size: 0.93rem; line-height: 1.55; color: $ink-2; margin-bottom: 0.4rem; }
+  a { font-size: 0.9rem; font-weight: 600; }
 }
-ul.now { padding-left: 1.2rem; li { margin-bottom: 0.35rem; } }
-.profile img { max-width: 220px; }
+
+// Timeline items (news style)
+.home-news { margin-top: 1.5rem; }
+.news-item { display: grid; grid-template-columns: minmax(0,1fr) 260px; gap: 1.5rem; align-items: center;
+  border-left: 4px solid $bar; background: #fff; box-shadow: 0 1px 3px rgba(0,0,0,0.08); border-radius: 0 4px 4px 0;
+  padding: 1rem 1.2rem; margin-bottom: 1rem;
+  .news-date { color: $ink-2; font-size: 0.82rem; margin: 0 0 0.15rem; text-transform: uppercase; letter-spacing: 0.04em; }
+  .news-title { font-size: 1rem; font-weight: 700; margin: 0 0 0.35rem; text-transform: uppercase; a { color: inherit; } }
+  p { margin: 0; font-size: 0.95rem; line-height: 1.55; }
+  .news-thumb img { width: 100%; height: 150px; object-fit: cover; border-radius: 4px; display: block; }
+}
+@media (max-width: 700px) { .news-item { grid-template-columns: 1fr; } .news-thumb { order: -1; } }
+
+.home-pubs { margin-top: 2rem; }
+
+// Products page
+.products .product { border-left: 4px solid $bar; padding: 0.4rem 0 0.4rem 1.2rem; margin-bottom: 2rem;
+  h3 { font-size: 1.1rem; font-weight: 700; margin: 0; }
+  .product-head { display: flex; flex-wrap: wrap; gap: 0.3rem 1rem; align-items: baseline; margin-bottom: 0.6rem; }
+  .product-org { color: $ink-2; font-size: 0.9rem; }
+  p { margin: 0 0 0.45rem; line-height: 1.6; }
+  .product-stack { color: $ink-2; font-size: 0.88rem; }
+}

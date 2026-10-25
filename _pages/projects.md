@@ -1,11 +1,10 @@
 ---
 layout: page
-title: work
-permalink: /work/
-description: Selected open-source and challenge work. Production work at Pearl AI and Allisone.ai is described on the home page and CV.
+title: code
+permalink: /code/
+description: Open-source work.
 nav: true
-nav_order: 1
-horizontal: true
+nav_order: 3
 ---
 
 <div class="projects">
