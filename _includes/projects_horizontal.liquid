@@ -1,3 +1,4 @@
+{% if forloop.first %}{% assign project_loading = 'eager' %}{% else %}{% assign project_loading = 'lazy' %}{% endif %}
 {% capture project_href %}{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}{% endcapture %}
 <div class="col mb-4">
   <div class="card h-100 hoverable">
@@ -5,7 +6,7 @@
       {% if project.img %}
         <div class="col-md-6">
           <a href="{{ project_href }}">
-            {%- include figure.liquid loading="eager" path=project.img sizes="(min-width: 768px) 520px, 100vw" alt="project thumbnail" class="card-img" -%}
+            {%- include figure.liquid loading=project_loading path=project.img sizes="(min-width: 768px) 520px, 100vw" alt="project thumbnail" class="card-img" -%}
           </a>
         </div>
       {% endif %}
