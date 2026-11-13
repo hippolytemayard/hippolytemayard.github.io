@@ -37,6 +37,9 @@ footer.fixed-bottom,
 footer.sticky-bottom {
   background: $bar;
   color: #cfd4d9;
+  .container {
+    color: inherit;
+  }
   a {
     color: #ffffff;
   }
@@ -82,6 +85,9 @@ footer.sticky-bottom {
   }
   .home-side {
     order: -1;
+    width: 100%;
+    max-width: 340px;
+    margin: 0 auto;
   }
 }
 
