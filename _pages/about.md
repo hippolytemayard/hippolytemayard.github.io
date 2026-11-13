@@ -1,6 +1,7 @@
 ---
 layout: home
 title: about
+head_title: "Hippolyte Mayard — Senior Machine Learning Scientist, Medical Imaging"
 permalink: /
 
 profile:
