@@ -3,6 +3,8 @@ layout: home
 title: about
 head_title: "Hippolyte Mayard — Senior Machine Learning Scientist, Medical Imaging"
 permalink: /
+job_title: Senior Machine Learning Scientist
+works_for: Pearl AI
 
 profile:
   image: prof_pic.jpg

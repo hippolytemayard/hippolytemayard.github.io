@@ -5,6 +5,7 @@ title: teaching
 description: External lecturer at Université Paris Dauphine-PSL since 2022.
 nav: true
 nav_order: 4
+meta_description: "Hippolyte Mayard, external lecturer at Université Paris Dauphine-PSL since 2022: Deep Learning for Image Analysis (Master IASD / BDIA) and Deep Learning."
 ---
 
 ### Deep Learning for Image Analysis — Master IASD / BDIA

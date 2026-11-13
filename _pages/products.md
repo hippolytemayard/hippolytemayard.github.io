@@ -5,6 +5,7 @@ permalink: /products/
 description: Clinical AI I have taken to production.
 nav: true
 nav_order: 1
+meta_description: "Clinical AI taken to production by Hippolyte Mayard: 3D CBCT pathology and anatomy, 2D caries detection, clinical diagnostic features, vessel segmentation."
 ---
 
 <div class="products">

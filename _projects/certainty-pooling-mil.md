@@ -6,6 +6,7 @@ description: "PyTorch implementation of Certainty Pooling (Gildenblat et al., 20
 importance: 3
 category: open source
 github: https://github.com/hippolytemayard/certainty-pooling-mil
+meta_description: "PyTorch implementation of Certainty Pooling (Gildenblat et al., 2020) for weakly supervised classification of histopathology slides, with one label per slide."
 ---
 
 **Problem.** Each slide is a _bag_ of tiles. Tiles are represented by pre-extracted ResNet features, and only the slide-level binary label is known. The model has to score a slide from its tiles without tile-level supervision.

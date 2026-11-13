@@ -7,6 +7,7 @@ img: assets/img/project3/preds_vs_gt.gif
 importance: 1
 category: open source
 github: https://github.com/hippolytemayard/teeth-3d-mesh-segmentation
+meta_description: "MeshSegNet for automated tooth labelling on raw intra-oral 3D scans, upper and lower jaw, on the 3DTeethSeg22 challenge data (MICCAI 2022): 1,800 scans."
 ---
 
 **Problem.** Label every tooth on a raw intra-oral scanner mesh (upper and lower jaw) with no preprocessing — a prerequisite for orthodontic planning and aligner design.
