@@ -21,7 +21,7 @@ pipeline:
     link: /products/
     link_text: Products
   - stage: FDA 510(k)
-    text: Sole technical owner of Pearl's 3D CBCT pathology program — five pathologies, eight anatomical structures. Regulatory evidence for FDA 510(k) submissions: validation protocol, locked test sets and technical file. From the first pathology model to commercial release in Second Opinion 3D.
+    text: Sole technical owner of Pearl's 3D CBCT pathology program — five pathologies, eight anatomical structures. Regulatory evidence for FDA 510(k) submissions — validation protocol, locked test sets and technical file. From the first pathology model to commercial release in Second Opinion 3D.
     link: /cv/
     link_text: CV
 
