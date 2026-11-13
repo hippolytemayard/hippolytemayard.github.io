@@ -32,6 +32,11 @@
       <script>
         window.addEventListener('load', function () {
           var box = document.getElementById('visitor-map');
+          // the widget inserts a link without text: give it an accessible name
+          new MutationObserver(function () {
+            var link = box.querySelector('a:not([aria-label])');
+            if (link) link.setAttribute('aria-label', 'Visitor map (MapMyVisitors)');
+          }).observe(box, { childList: true, subtree: true });
           var inject = function () {
             var s = document.createElement('script');
             s.id = 'mapmyvisitors';
