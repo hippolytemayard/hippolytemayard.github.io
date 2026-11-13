@@ -13,7 +13,6 @@ footer_text: >
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 keywords: medical imaging AI, computer vision, 3D segmentation, CBCT, FDA 510(k), nnU-Net, MONAI, PyTorch, machine learning scientist, hippolyte mayard
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: 🧠 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://hippolytemayard.github.io # the base hostname & protocol for your site
 baseurl: ""
