@@ -29,7 +29,7 @@ footer.fixed-bottom, footer.sticky-bottom { background: $bar; color: #cfd4d9; a 
 .home-grid { display: grid; grid-template-columns: minmax(0, 1fr) 300px; gap: 2.5rem; align-items: start; }
 @media (max-width: 860px) { .home-grid { grid-template-columns: 1fr; } .home-side { order: -1; } }
 
-.home-about p { font-size: 1.02rem; line-height: 1.7; text-align: justify; hyphens: auto; margin-bottom: 1rem; }
+.home-about p { font-size: 1.02rem; line-height: 1.7; text-align: justify; hyphens: manual; margin-bottom: 1rem; }
 .home-about a, .home-news a, .pipeline a, .products a { color: $accent; text-decoration: none; &:hover { text-decoration: underline; } }
 
 // Profile card
