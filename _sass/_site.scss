@@ -321,3 +321,16 @@ h3.h5 {
 .publications h2.bibliography {
   color: #8c8c8c;
 }
+
+// Links inside running text are underlined, so they do not rely on colour alone
+// (navbar links, buttons and card links are not affected)
+.home-about p a,
+.profile-lines p a,
+.home-news p a,
+.products p a,
+.post article p a:not(.btn),
+.post article li a:not(.btn),
+footer .container a {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
