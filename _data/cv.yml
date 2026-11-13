@@ -5,7 +5,7 @@
       institution: Pearl AI — US dental AI, FDA-cleared 2D + 3D imaging · Remote (Italy)
       year: Jan 2025 – present
       description:
-        - Technical owner of the 3D CBCT pathology program (5 pathologies, 8 anatomical structures); sole technical owner since Feb 2026. Two FDA 510(k) submissions filed; 7 months from the first pathology model to the commercial launch of Second Opinion 3D (Sep 2026).
+        - Sole technical owner of the 3D CBCT pathology program since Feb 2026 (5 pathologies, 8 anatomical structures). Two FDA 510(k) submissions filed; 7 months from the first pathology model to the commercial launch of Second Opinion 3D (Sep 2026).
         - Rebuilt and improved the 2D caries detection model on intra-oral and panoramic X-rays used by 50,000+ clinicians in 120+ countries — cut false positives by 25% at constant recall, reducing the churn they were driving; shipped caries progression on top.
         - Operating-point design for real users — clinician personas (recall-first vs specificity-first), default threshold set between them, per-site sensitivity presets with per-class PR curves, per-device robustness checks.
         - Regulatory evidence for two 510(k)s — validation protocol, locked test set with enforced train/test independence, performance reports, technical file.

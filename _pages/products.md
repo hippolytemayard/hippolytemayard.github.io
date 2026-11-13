@@ -14,7 +14,7 @@ nav_order: 1
     <h3>Second Opinion 3D — CBCT pathology & anatomy</h3>
     <span class="product-org">Pearl AI · 2025 – present</span>
   </div>
-  <p><strong>Role.</strong> Technical owner of the 3D program; sole technical owner since February 2026.</p>
+  <p><strong>Role.</strong> Sole technical owner of the 3D CBCT pathology program since Feb 2026.</p>
   <p><strong>Scope.</strong> Detection of five pathologies and segmentation of eight anatomical structures on cone-beam CT. Two FDA 510(k) submissions filed. Validation protocol, locked test set with enforced train/test independence, performance reports, technical file.</p>
   <p><strong>Outcome.</strong> Pathology models shipped commercially seven months after the first one was trained, with both 510(k) submissions filed in the same period; <a href="https://hellopearl.com/news/pearl-launches-second-opinion-3d-bringing-fda-cleared-3d-imaging-ai-to-general-dentists-for-the-first-time">general launch in September 2026</a>. Pearl is the <a href="https://hellopearl.com/news/pearl-becomes-first-dental-ai-company-cleared-by-fda-for-both-2d-and-3d-imaging">first dental-AI company cleared by the FDA for both 2D and 3D imaging</a>: Second Opinion 3D received 510(k) clearance on 27 May 2025 for anatomical segmentation on CBCT. The pathology submissions are filed.</p>
   <p class="product-stack">PyTorch · MONAI · nnU-Net · AWS · MLflow · GitLab CI</p>
