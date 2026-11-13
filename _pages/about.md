@@ -7,7 +7,7 @@ profile:
   image: prof_pic.jpg
   name: Hippolyte Mayard
   lines:
-    - Senior ML Scientist, <a href="https://www.hellopearl.com/">Pearl AI</a>
+    - Senior Machine Learning Scientist, <a href="https://www.hellopearl.com/">Pearl AI</a>
     - External Lecturer, <a href="https://dauphine.psl.eu/">Université Paris Dauphine-PSL</a>
     - Treviso, Italy — remote
 
@@ -17,11 +17,11 @@ pipeline:
     link: /publications/
     link_text: Publications
   - stage: Ship
-    text: Founding deep-learning engineer at Allisone.ai, where the first computer-vision models powered 5+ clinical features. At Pearl, 2D caries detection used by 50,000+ clinicians in 120+ countries, with false positives cut by 25% at constant recall.
+    text: Founding deep-learning engineer at Allisone.ai, where the first computer-vision models powered 5+ clinical features. At Pearl, rebuilt and improved the 2D caries detection model used by 50,000+ clinicians in 120+ countries, with false positives cut by 25% at constant recall.
     link: /products/
     link_text: Products
-  - stage: FDA clearance
-    text: Technical owner of Pearl's 3D CBCT pathology program — five pathologies, eight anatomical structures. Two 510(k) submissions filed; validation protocol, locked test sets and technical file. Seven months from the first pathology model to commercial release in Second Opinion 3D.
+  - stage: FDA 510(k)
+    text: Sole technical owner of Pearl's 3D CBCT pathology program — five pathologies, eight anatomical structures. Two 510(k) submissions filed; validation protocol, locked test sets and technical file. Seven months from the first pathology model to commercial release in Second Opinion 3D.
     link: /cv/
     link_text: CV
 
@@ -31,11 +31,11 @@ news:
     text: Pearl's CBCT product launched commercially for general dentists in the US and Canada.
     link: https://hellopearl.com/news/pearl-launches-second-opinion-3d-bringing-fda-cleared-3d-imaging-ai-to-general-dentists-for-the-first-time
   - date: Feb 2026
-    title: Leading the 3D CBCT pathology program
-    text: Took over technical leadership of the program; second FDA 510(k) submission prepared and filed during the year.
+    title: Sole technical owner of the 3D CBCT pathology program
+    text: Took over technical ownership of the program; second FDA 510(k) submission prepared and filed during the year.
   - date: Jan 2025
     title: Joined Pearl AI
-    text: Senior ML Scientist at Pearl, which in May 2025 became the first dental-AI company cleared by the FDA for both 2D and 3D imaging. First mandate — the caries model behind the core product.
+    text: Senior Machine Learning Scientist at Pearl, which in May 2025 became the first dental-AI company cleared by the FDA for both 2D and 3D imaging. First mandate — the caries model behind the core product.
     link: https://hellopearl.com/news/pearl-becomes-first-dental-ai-company-cleared-by-fda-for-both-2d-and-3d-imaging
   - date: Feb 2024
     title: SISTR on medRxiv
@@ -50,7 +50,7 @@ news:
     text: Deep Learning for Image Analysis, Master IASD / BDIA, Paris and Tunis.
 ---
 
-Hippolyte Mayard is a Senior ML Scientist at [Pearl AI](https://www.hellopearl.com/), the first dental-AI company cleared by the FDA for both 2D and 3D imaging. He is the technical owner of its 3D CBCT pathology program and rebuilt the company's 2D caries detection model, used by more than 50,000 clinicians in 120 countries.
+Hippolyte Mayard is a Senior Machine Learning Scientist at [Pearl AI](https://www.hellopearl.com/), the first dental-AI company cleared by the FDA for both 2D and 3D imaging. He is the sole technical owner of its 3D CBCT pathology program, whose two FDA 510(k) submissions are filed, and rebuilt and improved the company's 2D caries detection model, used by more than 50,000 clinicians in 120 countries.
 
 His work sits at the point where computer-vision research becomes a regulated medical device: model and data design, operating-point selection for different clinical users, clinical validation on locked test sets, FDA 510(k) technical documentation, and production deployment. Before Pearl he was the founding deep-learning engineer at [Allisone.ai](https://www.allisone.ai/), where he built the first models of the product behind the company's €10M seed round, and a research engineer at [INRIA](https://team.inria.fr/epione/) (Epione) on cone-beam CT reconstruction.
 
