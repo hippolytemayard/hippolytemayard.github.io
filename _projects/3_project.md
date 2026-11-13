@@ -15,8 +15,8 @@ meta_description: "MeshSegNet for automated tooth labelling on raw intra-oral 3D
 **Approach.** Implementation of [MeshSegNet](https://ieeexplore.ieee.org/abstract/document/8984309) (multi-scale graph-constrained mesh feature learning) on the [3DTeethSeg22](https://github.com/abenhamadou/3DTeethSeg22_challenge) challenge data: 1,800 scans from 900 patients, 33 labels (background + 32 FDI teeth). Per-cell features (coordinates, normals, relative position), two graph-constrained learning modules at different radii, dense cell-wise prediction, then graph-cut refinement.
 
 <div class="row">
-  <div class="col-sm-6 mt-3 mt-md-0">{% include figure.liquid loading="eager" path="assets/img/project3/preds_vs_gt.gif" class="img-fluid rounded z-depth-1" %}</div>
-  <div class="col-sm-6 mt-3 mt-md-0">{% include figure.liquid loading="eager" path="assets/img/project3/meshsegnet_architecture.png" class="img-fluid rounded z-depth-1" %}</div>
+  <div class="col-sm-6 mt-3 mt-md-0">{% include figure.liquid loading="eager" path="assets/img/project3/preds_vs_gt.gif" class="img-fluid rounded z-depth-1" alt="Ground truth and predicted tooth labels on a rotating 3D jaw mesh" %}</div>
+  <div class="col-sm-6 mt-3 mt-md-0">{% include figure.liquid loading="eager" path="assets/img/project3/meshsegnet_architecture.png" class="img-fluid rounded z-depth-1" alt="MeshSegNet architecture diagram" %}</div>
 </div>
 <div class="caption">Left: ground truth vs prediction on a held-out jaw. Right: MeshSegNet architecture.</div>
 

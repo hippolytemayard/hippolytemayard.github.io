@@ -6,7 +6,7 @@
       {% if project.img %}
         <div class="col-md-6">
           <a href="{{ project_href }}">
-            {%- include figure.liquid loading=project_loading path=project.img sizes="(min-width: 768px) 520px, 100vw" alt="project thumbnail" class="card-img" -%}
+            {%- include figure.liquid loading=project_loading path=project.img sizes="(min-width: 768px) 520px, 100vw" alt=project.title class="card-img" -%}
           </a>
         </div>
       {% endif %}

@@ -18,9 +18,9 @@ github: https://github.com/hippolytemayard/yolov11-pytorch
 - **Pose** — 17 COCO keypoints with skeleton decoding.
 
 <div class="row">
-  <div class="col-sm-4 mt-3 mt-md-0">{% include figure.liquid loading="eager" path="assets/img/project_yolo/showcase_detection.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}</div>
-  <div class="col-sm-4 mt-3 mt-md-0">{% include figure.liquid loading="eager" path="assets/img/project_yolo/showcase_segmentation.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}</div>
-  <div class="col-sm-4 mt-3 mt-md-0">{% include figure.liquid loading="eager" path="assets/img/project_yolo/showcase_pose.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}</div>
+  <div class="col-sm-4 mt-3 mt-md-0">{% include figure.liquid loading="eager" path="assets/img/project_yolo/showcase_detection.jpg" class="img-fluid rounded z-depth-1" alt="Object detection example with bounding boxes" zoomable=true %}</div>
+  <div class="col-sm-4 mt-3 mt-md-0">{% include figure.liquid loading="eager" path="assets/img/project_yolo/showcase_segmentation.jpg" class="img-fluid rounded z-depth-1" alt="Instance segmentation example with masks" zoomable=true %}</div>
+  <div class="col-sm-4 mt-3 mt-md-0">{% include figure.liquid loading="eager" path="assets/img/project_yolo/showcase_pose.jpg" class="img-fluid rounded z-depth-1" alt="Pose estimation example with skeletons" zoomable=true %}</div>
 </div>
 <div class="caption">Detection · instance segmentation · pose, same backbone — run with Ultralytics weights transferred to this implementation, which remain AGPL-3.0.</div>
 
