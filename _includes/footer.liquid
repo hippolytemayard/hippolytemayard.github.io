@@ -26,5 +26,25 @@
     <div class="container">
       {{ footer_contents }}
     </div>
+    {% if page.url == '/' and page.visitor_map_src %}
+      <!-- Visitor map: home page only, injected after the page has finished loading -->
+      <div id="visitor-map" class="visitor-map" data-src="{{ page.visitor_map_src }}"></div>
+      <script>
+        window.addEventListener('load', function () {
+          var box = document.getElementById('visitor-map');
+          var inject = function () {
+            var s = document.createElement('script');
+            s.id = 'mapmyvisitors';
+            s.src = box.dataset.src;
+            box.appendChild(s);
+          };
+          if ('requestIdleCallback' in window) {
+            requestIdleCallback(inject, { timeout: 4000 });
+          } else {
+            setTimeout(inject, 2000);
+          }
+        });
+      </script>
+    {% endif %}
   </footer>
 {% endif %}
