@@ -2,12 +2,10 @@
 layout: default
 ---
 <div class="home">
-
   <div class="home-grid">
     <section class="home-main">
       <h2 class="section-title">About</h2>
       <div class="home-about">{{ content }}</div>
-
     </section>
 
     <aside class="home-side">
@@ -15,22 +13,36 @@ layout: default
         {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
         {% include figure.liquid loading="eager" path=profile_image_path class="img-fluid" alt=page.profile.name cache_bust=true %}
         <div class="profile-icons">
-          <a href="{{ '/assets/pdf/CV_Hippolyte_Mayard.pdf' | relative_url }}" title="CV" target="_blank" rel="noopener"><span class="cv-mark">cv</span></a>
-          <a href="https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid }}" title="Google Scholar" target="_blank" rel="noopener"><i class="ai ai-google-scholar"></i></a>
-          <a href="https://github.com/{{ site.data.socials.github_username }}" title="GitHub" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i></a>
-          <a href="https://www.linkedin.com/in/{{ site.data.socials.linkedin_username }}" title="LinkedIn" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="{{ '/assets/pdf/CV_Hippolyte_Mayard.pdf' | relative_url }}" title="CV" target="_blank" rel="noopener"
+            ><span class="cv-mark">cv</span></a
+          >
+          <a
+            href="https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid }}"
+            title="Google Scholar"
+            target="_blank"
+            rel="noopener"
+            ><i class="ai ai-google-scholar"></i
+          ></a>
+          <a href="https://github.com/{{ site.data.socials.github_username }}" title="GitHub" target="_blank" rel="noopener"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/{{ site.data.socials.linkedin_username }}" title="LinkedIn" target="_blank" rel="noopener"
+            ><i class="fa-brands fa-linkedin-in"></i
+          ></a>
           <a href="mailto:{{ site.data.socials.email | encode_email }}" title="Email"><i class="fa-solid fa-envelope"></i></a>
         </div>
         <div class="profile-lines">
           <p class="profile-name">{{ page.profile.name }}</p>
-          {% for l in page.profile.lines %}<p>{{ l }}</p>{% endfor %}
+          {% for l in page.profile.lines %}
+            <p>{{ l }}</p>
+          {% endfor %}
         </div>
       </div>
     </aside>
   </div>
 
   <section class="home-pipeline">
-      <h2 class="section-title">From research to regulated product</h2>
+    <h2 class="section-title">From research to regulated product</h2>
     <ol class="pipeline">
       {% for p in page.pipeline %}
         <li class="pipeline-stage">
@@ -48,7 +60,13 @@ layout: default
       <article class="news-item{% if n.img %} has-thumb{% endif %}">
         <div class="news-body">
           <p class="news-date">{{ n.date }}</p>
-          <h3 class="news-title">{% if n.link %}<a href="{{ n.link }}">{{ n.title }}</a>{% else %}{{ n.title }}{% endif %}</h3>
+          <h3 class="news-title">
+            {% if n.link -%}
+              <a href="{{ n.link }}">{{ n.title }}</a>
+            {%- else -%}
+              {{- n.title -}}
+            {%- endif %}
+          </h3>
           <p>{{ n.text }}</p>
         </div>
         {% if n.img %}
@@ -62,5 +80,4 @@ layout: default
     <h2 class="section-title"><a href="{{ '/publications/' | relative_url }}">Selected publications</a></h2>
     {% include selected_papers.liquid %}
   </section>
-
 </div>

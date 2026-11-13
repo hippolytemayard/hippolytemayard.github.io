@@ -24,12 +24,12 @@ github: https://github.com/hippolytemayard/yolov11-pytorch
 </div>
 <div class="caption">Detection · instance segmentation · pose, same backbone — run with Ultralytics weights transferred to this implementation, which remain AGPL-3.0.</div>
 
-| | Ultralytics | This project |
-|---|---|---|
-| Code licence | AGPL-3.0 | Apache 2.0 |
-| Dependency | `ultralytics` package | PyTorch only |
-| Trained weights | AGPL-3.0 | To come, under Apache 2.0 |
-| COCO benchmark | Published | Not yet |
+|                 | Ultralytics           | This project              |
+| --------------- | --------------------- | ------------------------- |
+| Code licence    | AGPL-3.0              | Apache 2.0                |
+| Dependency      | `ultralytics` package | PyTorch only              |
+| Trained weights | AGPL-3.0              | To come, under Apache 2.0 |
+| COCO benchmark  | Published             | Not yet                   |
 
 **Status.** Code complete for the three heads. Weights are being trained from scratch on COCO, to be released under Apache 2.0; no weights and no COCO mAP are published yet. Until then, the code runs with Ultralytics checkpoints converted by the transfer script, which stay under AGPL-3.0 — no Ultralytics checkpoints are redistributed.
 
