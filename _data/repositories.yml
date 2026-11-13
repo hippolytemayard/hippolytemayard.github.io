@@ -1,8 +1,0 @@
-github_users:
-  - hippolytemayard
-
-repo_description_lines_max: 2
-
-github_repos:
-  - hippolytemayard/yolov11-pytorch
-  - hippolytemayard/teeth-3d-mesh-segmentation

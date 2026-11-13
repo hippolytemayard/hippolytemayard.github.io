@@ -73,7 +73,7 @@
   contents:
     - title: <a href="https://github.com/hippolytemayard/yolov11-pytorch">yolov11-pytorch</a>
       year: 2025
-      description: Apache-2.0 YOLOv11 re-implementation in pure PyTorch — detection, segmentation, pose.
+      description: Apache-2.0 re-implementation of the YOLOv11 architecture in pure PyTorch — detection, segmentation, pose heads; trained weights to come.
     - title: <a href="https://github.com/hippolytemayard/teeth-3d-mesh-segmentation">teeth-3d-mesh-segmentation</a>
       year: 2022
       description: MeshSegNet for tooth labelling on intra-oral 3D scans (3DTeethSeg22, MICCAI 2022).
