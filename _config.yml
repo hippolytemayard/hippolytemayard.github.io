@@ -22,12 +22,6 @@ impressum_path: # set to path to include impressum link in the footer, use the s
 back_to_top: true # set to false to disable the back to top button
 
 # -----------------------------------------------------------------------------
-# RSS Feed
-# -----------------------------------------------------------------------------
-# will use title and url fields
-# Take a look to https://github.com/jekyll/jekyll-feed for more customization
-
-# -----------------------------------------------------------------------------
 # Layout
 # -----------------------------------------------------------------------------
 
@@ -111,7 +105,6 @@ keep_files:
 # Plug-ins
 plugins:
   - jekyll-email-protect
-  - jekyll-feed
   - jekyll-get-json
   - jekyll-imagemagick
   # - jekyll-jupyter-notebook  # Disabled due to encoding issues
