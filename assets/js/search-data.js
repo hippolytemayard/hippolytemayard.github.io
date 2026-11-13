@@ -54,6 +54,16 @@ ninja.data = [{
           description: "MeshSegNet for automated tooth labelling on raw intra-oral 3D scans — 3DTeethSeg22 challenge (MICCAI 2022).",
           section: "Projects",handler: () => {
               window.location.href = "/code/teeth-3d-mesh-segmentation/";
+            },},{id: "projects-certainty-pooling-mil",
+          title: 'certainty-pooling-mil',
+          description: "PyTorch implementation of Certainty Pooling (Gildenblat et al., 2020) for weakly supervised classification of histopathology slides — one label per slide, no label per tile.",
+          section: "Projects",handler: () => {
+              window.location.href = "/code/certainty-pooling-mil/";
+            },},{id: "projects-chest-x-ray-generative-models",
+          title: 'chest-x-ray-generative-models',
+          description: "Unconditional generation of chest X-rays with a denoising diffusion probabilistic model (DDPM), trained at 128×128 on a public chest radiography dataset.",
+          section: "Projects",handler: () => {
+              window.location.href = "/code/chest-x-ray-generative-models/";
             },},{
         id: 'social-email',
         title: 'email',
