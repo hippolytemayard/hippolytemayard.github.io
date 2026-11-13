@@ -43,6 +43,9 @@ max_width: 1100px
 serve_og_meta: true # Include Open Graph meta tags in the HTML head
 serve_schema_org: true # Include Schema.org in the HTML head
 og_image: https://hippolytemayard.github.io/assets/img/og_image.png # The site-wide (default for all links) Open Graph preview image
+og_image_width: 1200
+og_image_height: 630
+og_image_alt: "Hippolyte Mayard, Senior Machine Learning Scientist — regulated 2D/3D medical imaging AI"
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
