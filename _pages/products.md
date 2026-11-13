@@ -12,7 +12,7 @@ meta_description: "Clinical AI taken to production by Hippolyte Mayard: 3D CBCT 
 
 <div class="product">
   <div class="product-head">
-    <h3>Second Opinion 3D — CBCT pathology & anatomy</h3>
+    <h2>Second Opinion 3D — CBCT pathology & anatomy</h2>
     <span class="product-org">Pearl AI · 2025 – present</span>
   </div>
   <p><strong>Role.</strong> Sole technical owner of the 3D CBCT pathology program since Feb 2026.</p>
@@ -23,7 +23,7 @@ meta_description: "Clinical AI taken to production by Hippolyte Mayard: 3D CBCT 
 
 <div class="product">
   <div class="product-head">
-    <h3>Second Opinion — 2D caries detection</h3>
+    <h2>Second Opinion — 2D caries detection</h2>
     <span class="product-org">Pearl AI · 2025 – present</span>
   </div>
   <p><strong>Role.</strong> Owner of the caries model on intra-oral and panoramic X-rays.</p>
@@ -33,7 +33,7 @@ meta_description: "Clinical AI taken to production by Hippolyte Mayard: 3D CBCT 
 
 <div class="product">
   <div class="product-head">
-    <h3>Allisone — clinical diagnostic features</h3>
+    <h2>Allisone — clinical diagnostic features</h2>
     <span class="product-org">Allisone.ai · 2021 – 2024</span>
   </div>
   <p><strong>Role.</strong> Founding deep-learning engineer.</p>
@@ -43,7 +43,7 @@ meta_description: "Clinical AI taken to production by Hippolyte Mayard: 3D CBCT 
 
 <div class="product">
   <div class="product-head">
-    <h3>3D brain-vessel segmentation for neurosurgery planning</h3>
+    <h2>3D brain-vessel segmentation for neurosurgery planning</h2>
     <span class="product-org">Theodo Data & AI · 2024</span>
   </div>
   <p><strong>Role.</strong> Lead AI engineer.</p>
