@@ -54,7 +54,7 @@ news:
     text: Deep Learning for Image Analysis, Master IASD / BDIA, Paris and Tunis.
 ---
 
-Hippolyte Mayard is a Senior Machine Learning Scientist at [Pearl AI](https://www.hellopearl.com/), the first dental-AI company cleared by the FDA for both 2D and 3D imaging. He is the sole technical owner of its 3D CBCT pathology program, from model research to FDA 510(k) evidence and commercial release, and owns the company's 2D caries detection model, used by more than 50,000 clinicians in 120 countries.
+Hippolyte Mayard is a Senior Machine Learning Scientist at [Pearl AI](https://www.hellopearl.com/), the first dental-AI company cleared by the FDA for both 2D and 3D imaging. He is the sole technical owner of its 3D CBCT pathology program, from model research to FDA 510(k) evidence and commercial release, and owns the company's 2D caries detection model, used by more than 50,000 clinicians in 120+ countries.
 
 His work sits at the point where computer-vision research becomes a regulated medical device: model and data design, operating-point selection for different clinical users, clinical validation on locked test sets, FDA 510(k) technical documentation, and production deployment. Before Pearl he was the founding deep-learning engineer at [Allisone.ai](https://www.allisone.ai/), where he built the first models of the product behind the company's €10M seed round, and a research engineer at [INRIA](https://team.inria.fr/epione/) (Epione) on cone-beam CT reconstruction.
 
