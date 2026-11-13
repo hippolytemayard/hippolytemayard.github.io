@@ -6,6 +6,11 @@ $rule: #e3e6e9;
 $bar: #2f3640;
 $accent: #1a56c4;
 
+// AA contrast for the theme's light grey text (was #828282, 3.8:1 on white)
+:root {
+  --global-text-color-light: #6b6b6b;
+}
+
 body {
   color: $ink;
 }
