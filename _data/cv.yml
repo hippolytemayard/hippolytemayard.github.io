@@ -2,19 +2,19 @@
   type: time_table
   contents:
     - title: Senior Machine Learning Scientist
-      institution: Pearl AI — US dental AI, FDA-cleared 2D + 3D imaging · Remote (Italy)
+      institution: Pearl AI — US dental AI, FDA-cleared 2D + 3D imaging · Remote
       year: Jan 2025 – present
       description:
-        - Sole technical owner of the 3D CBCT pathology program since Feb 2026 (5 pathologies, 8 anatomical structures). Two FDA 510(k) submissions filed; 7 months from the first pathology model to the commercial launch of Second Opinion 3D (Sep 2026).
-        - Rebuilt and improved the 2D caries detection model on intra-oral and panoramic X-rays used by 50,000+ clinicians in 120+ countries — cut false positives by 25% at constant recall, reducing the churn they were driving; shipped caries progression on top.
-        - Operating-point design for real users — clinician personas (recall-first vs specificity-first), default threshold set between them, per-site sensitivity presets with per-class PR curves, per-device robustness checks.
-        - Regulatory evidence for two 510(k)s — validation protocol, locked test set with enforced train/test independence, performance reports, technical file.
+        - Sole technical owner of the 3D CBCT pathology program since Feb 2026 (5 pathologies, 8 anatomical structures). From the first pathology model to the commercial launch of Second Opinion 3D (Sep 2026).
+        - Owner of the 2D caries detection model on intra-oral and panoramic X-rays used by 50,000+ clinicians in 120+ countries — reduced false positives at constant recall by re-annotating dismissed clinical cases; shipped caries progression on top.
+        - Operating-point selection for different clinical users (recall-first vs specificity-first), with per-class PR analysis and per-device robustness checks.
+        - Regulatory evidence for FDA 510(k) submissions — validation protocol, locked test set with enforced train/test independence, performance reports, technical file.
         - Production inference on AWS, versioned algorithm packages, MLflow tracking, GitLab CI.
     - title: Lead AI Engineer
       institution: Theodo Data & AI · Paris
       year: Sep – Dec 2024
       description:
-        - Surgitec-Robotics — 3D brain-vessel segmentation for surgical trajectory planning in minimally invasive neurosurgery.
+        - 3D brain-vessel segmentation for surgical trajectory planning in minimally invasive neurosurgery.
     - title: Founding Deep Learning Engineer
       institution: Allisone.ai · Paris
       year: Oct 2021 – Feb 2024
@@ -88,7 +88,7 @@
         - FDA 510(k) evidence — validation protocol, locked test sets, performance reports, technical file
     - title: ML engineering
       items:
-        - Python, PyTorch, ONNX; AWS (SageMaker), Docker, Kubernetes, MLflow, FastAPI, GitLab CI
+        - Python, PyTorch, ONNX; AWS, Docker, MLflow, FastAPI, GitLab CI
         - Versioned algorithm packages, inference services, model monitoring
 
 - title: Languages
