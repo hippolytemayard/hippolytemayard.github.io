@@ -10,7 +10,7 @@ body { color: $ink; }
 
 // Navbar: dark slate bar, like a department site
 #navbar {
-  background: $bar !important; border-bottom: 0;
+  background: $bar !important; border-bottom: 0; opacity: 1;
   .navbar-brand, .nav-link { color: #e9ecef !important; }
   .nav-link:hover, .nav-item.active .nav-link { color: #ffffff !important; }
   .navbar-brand.title { font-weight: 700; letter-spacing: 0.02em; text-transform: uppercase; font-size: 1.05rem; }
