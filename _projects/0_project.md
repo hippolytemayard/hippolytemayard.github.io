@@ -4,7 +4,7 @@ permalink: /code/yolov11-pytorch/
 title: yolov11-pytorch
 description: Apache-2.0 re-implementation of the YOLOv11 architecture in pure PyTorch — detection, instance segmentation and pose heads. Trained weights to come.
 img: assets/img/project_yolo/showcase.jpg
-importance: 1
+importance: 2
 category: open source
 github: https://github.com/hippolytemayard/yolov11-pytorch
 ---
