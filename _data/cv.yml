@@ -12,19 +12,19 @@
         - Production inference on AWS, versioned algorithm packages, MLflow tracking, GitLab CI.
     - title: Lead AI Engineer
       institution: Theodo Data & AI · Paris
-      year: Aug 2024 – Jan 2025
+      year: Sep – Dec 2024
       description:
         - Surgitec-Robotics — 3D brain-vessel segmentation for surgical trajectory planning in minimally invasive neurosurgery.
     - title: Founding Deep Learning Engineer
       institution: Allisone.ai · Paris
-      year: Nov 2021 – Jul 2024
+      year: Oct 2021 – Feb 2024
       description:
         - First CV models of the company — classification, detection and segmentation on 2D panoramic and intra-oral dental X-rays, powering 5+ clinical diagnostic features.
         - Detection, segmentation and generative modelling on 3D CBCT; diffusion-model pre-training for dental segmentation (MICCAI 2023 DGM workshop).
-        - Company raised a €10M Series A on the product these models powered.
+        - Company raised a €10M seed round (2022) on the product these models powered.
     - title: Research Engineer
       institution: INRIA, team Epione · Sophia Antipolis
-      year: Apr – Nov 2021
+      year: Apr – Sep 2021
       description:
         - Metal-artefact reduction on cone-beam CT, supervised by Hervé Delingette.
     - title: Data Scientist
