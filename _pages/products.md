@@ -36,7 +36,7 @@ nav_order: 1
     <span class="product-org">Allisone.ai · 2021 – 2024</span>
   </div>
   <p><strong>Role.</strong> Founding deep-learning engineer.</p>
-  <p><strong>Scope.</strong> First computer-vision models of the company — classification, detection and segmentation on 2D panoramic and intra-oral X-rays — powering 5+ clinical features; detection, segmentation and generative modelling on 3D CBCT; the research behind SISTR and the MICCAI 2023 paper.</p>
+  <p><strong>Scope.</strong> First computer-vision models of the company — classification, detection and segmentation on 2D panoramic and intra-oral X-rays — powering 5+ clinical features; detection, segmentation and generative modelling on 3D CBCT; the research behind SISTR and the MICCAI 2023 workshop paper.</p>
   <p><strong>Outcome.</strong> Product in daily use by dentists; the company raised a €10M seed round in 2022.</p>
 </div>
 
