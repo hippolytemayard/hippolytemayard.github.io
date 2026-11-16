@@ -39,7 +39,7 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "cv",
-          description: "Download the one-page PDF, or read the full version below.",
+          description: "Full CV. One-page PDF available on request.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
