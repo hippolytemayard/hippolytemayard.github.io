@@ -14,9 +14,7 @@ layout: default
         {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
         {% include figure.liquid loading="eager" path=profile_image_path class="img-fluid" alt=page.profile.name cache_bust=true width="640" height="640" %}
         <div class="profile-icons">
-          <a href="{{ '/assets/pdf/CV_Hippolyte_Mayard.pdf' | relative_url }}" title="CV" target="_blank" rel="noopener"
-            ><span class="cv-mark">cv</span></a
-          >
+          <a href="{{ '/cv/' | relative_url }}" title="CV"><span class="cv-mark">cv</span></a>
           <a
             href="https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid }}"
             title="Google Scholar"

@@ -15,9 +15,9 @@ meta_description: "Clinical AI taken to production by Hippolyte Mayard: 3D CBCT 
     <h2>Second Opinion 3D — CBCT pathology & anatomy</h2>
     <span class="product-org">Pearl AI · 2025 – present</span>
   </div>
-  <p><strong>Role.</strong> Sole technical owner of the 3D CBCT pathology program since Feb 2026.</p>
-  <p><strong>Scope.</strong> Detection of five pathologies and segmentation of eight anatomical structures on cone-beam CT. Regulatory evidence for FDA 510(k) submissions: validation protocol, locked test set with enforced train/test independence, performance reports, technical file.</p>
-  <p><strong>Outcome.</strong> Pathology detection shipped commercially in Second Opinion 3D; <a href="https://hellopearl.com/news/pearl-launches-second-opinion-3d-bringing-fda-cleared-3d-imaging-ai-to-general-dentists-for-the-first-time">general launch in September 2026</a>. Pearl is the <a href="https://hellopearl.com/news/pearl-becomes-first-dental-ai-company-cleared-by-fda-for-both-2d-and-3d-imaging">first dental-AI company cleared by the FDA for both 2D and 3D imaging</a>: Second Opinion 3D received 510(k) clearance on 27 May 2025 for anatomical segmentation on CBCT.</p>
+  <p><strong>Role.</strong> Technical owner of the 3D CBCT pathology and anatomy program since Feb 2026.</p>
+  <p><strong>Scope.</strong> Pathology detection (five categories) and segmentation of anatomical structures on cone-beam CT: model and data design, training, evaluation on locked test sets with enforced train/test independence, production inference.</p>
+  <p><strong>Outcome.</strong> Released in Second Opinion 3D, <a href="https://hellopearl.com/news/pearl-launches-second-opinion-3d-bringing-fda-cleared-3d-imaging-ai-to-general-dentists-for-the-first-time">launched in September 2026</a>. Pearl is the <a href="https://hellopearl.com/news/pearl-becomes-first-dental-ai-company-cleared-by-fda-for-both-2d-and-3d-imaging">first dental-AI company cleared by the FDA for both 2D and 3D imaging</a>: Second Opinion 3D received 510(k) clearance on 27 May 2025 for anatomical segmentation on CBCT.</p>
   <p class="product-stack">PyTorch · MONAI · nnU-Net · AWS · MLflow · GitLab CI</p>
 </div>
 
@@ -27,8 +27,8 @@ meta_description: "Clinical AI taken to production by Hippolyte Mayard: 3D CBCT 
     <span class="product-org">Pearl AI · 2025 – present</span>
   </div>
   <p><strong>Role.</strong> Owner of the caries model on intra-oral and panoramic X-rays.</p>
-  <p><strong>Scope.</strong> Reduced false positives at constant recall, by investigating real-world failure modes through systematic re-annotation of dismissed clinical cases and retraining the detection model. Operating-point selection for different clinical users, with per-class PR analysis and per-device robustness checks. Caries progression shipped on top.</p>
-  <p><strong>Reach.</strong> 50,000+ clinicians, 23,000+ practices, 120+ countries.</p>
+  <p><strong>Scope.</strong> Improved precision at constant recall through targeted re-annotation and retraining of the detection model. Operating-point selection for different clinical users, with per-class PR analysis and per-device robustness checks. Caries progression shipped on top.</p>
+  <p><strong>Reach.</strong> Part of a platform used by 50,000+ clinicians in 23,000+ practices and 120+ countries.</p>
 </div>
 
 <div class="product">

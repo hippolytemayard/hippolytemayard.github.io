@@ -5,10 +5,10 @@
       institution: Pearl AI — US dental AI, FDA-cleared 2D + 3D imaging · Full remote
       year: Jan 2025 – present
       description:
-        - Sole technical owner of the 3D CBCT pathology program since Feb 2026 (5 pathologies, 8 anatomical structures). From the first pathology model to the commercial launch of Second Opinion 3D (Sep 2026).
-        - Owner of the 2D caries detection model on intra-oral and panoramic X-rays used by 50,000+ clinicians in 120+ countries — reduced false positives at constant recall by re-annotating dismissed clinical cases; shipped caries progression on top.
+        - Technical owner of the 3D CBCT pathology and anatomy program since Feb 2026, from the first pathology model to release in Second Opinion 3D (launched Sep 2026).
+        - Owner of the 2D caries detection model on intra-oral and panoramic X-rays, in a platform used by 50,000+ clinicians in 120+ countries — improved precision at constant recall through targeted re-annotation; shipped caries progression on top.
         - Operating-point selection for different clinical users (recall-first vs specificity-first), with per-class PR analysis and per-device robustness checks.
-        - Regulatory evidence for FDA 510(k) submissions — validation protocol, locked test set with enforced train/test independence, performance reports, technical file.
+        - Regulated-device practice (FDA 510(k) context) — validation protocols, locked test sets with enforced train/test independence, performance reports, technical files.
         - Production inference on AWS, versioned algorithm packages, MLflow tracking, GitLab CI.
     - title: Lead AI Engineer
       institution: Theodo Data & AI · Paris
@@ -85,7 +85,7 @@
       items:
         - 3D segmentation & detection (CBCT, CT), nnU-Net, MONAI, TorchIO, SimpleITK, pydicom
         - Operating-point design, calibration, PR analysis per class / per site / per device
-        - FDA 510(k) evidence — validation protocol, locked test sets, performance reports, technical file
+        - FDA 510(k) documentation — validation protocols, locked test sets, performance reports, technical files
     - title: ML engineering
       items:
         - Python, PyTorch, ONNX; AWS, Docker, MLflow, FastAPI, GitLab CI

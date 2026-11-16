@@ -21,11 +21,11 @@ pipeline:
     link: /publications/
     link_text: Publications
   - stage: Ship
-    text: Founding deep-learning engineer at Allisone.ai, where the first computer-vision models powered 5+ clinical features. At Pearl, owner of the 2D caries detection model used by 50,000+ clinicians in 120+ countries, with false positives reduced at constant recall.
+    text: Founding deep-learning engineer at Allisone.ai, where the first computer-vision models powered 5+ clinical features. At Pearl, technical owner of the 3D CBCT pathology and anatomy program and owner of the 2D caries detection model, in a platform used by 50,000+ clinicians in 120+ countries.
     link: /products/
     link_text: Products
   - stage: FDA 510(k)
-    text: Sole technical owner of Pearl's 3D CBCT pathology program — five pathologies, eight anatomical structures. Regulatory evidence for FDA 510(k) submissions — validation protocol, locked test sets and technical file. From the first pathology model to commercial release in Second Opinion 3D.
+    text: Machine learning inside a regulated product line — Pearl is the first dental-AI company cleared by the FDA for both 2D and 3D imaging. Validation protocols, locked test sets with enforced train/test independence, performance reports and technical files.
     link: /cv/
     link_text: CV
 
@@ -35,8 +35,8 @@ news:
     text: Pearl's CBCT product launched commercially for general dentists in the US and Canada.
     link: https://hellopearl.com/news/pearl-launches-second-opinion-3d-bringing-fda-cleared-3d-imaging-ai-to-general-dentists-for-the-first-time
   - date: Feb 2026
-    title: Sole technical owner of the 3D CBCT pathology program
-    text: Took over technical ownership of the program, from model research to regulatory evidence and release.
+    title: Technical owner of the 3D CBCT pathology and anatomy program
+    text: Took over technical ownership of the program, from model research to release.
   - date: Jan 2025
     title: Joined Pearl AI
     text: Senior Machine Learning Scientist at Pearl, which in May 2025 became the first dental-AI company cleared by the FDA for both 2D and 3D imaging. First mandate — the caries model behind the core product.
@@ -54,7 +54,7 @@ news:
     text: Deep Learning for Image Analysis, Master IASD / BDIA, Paris and Tunis.
 ---
 
-Hippolyte Mayard is a Senior Machine Learning Scientist at [Pearl AI](https://www.hellopearl.com/), the first dental-AI company cleared by the FDA for both 2D and 3D imaging. He is the sole technical owner of its 3D CBCT pathology program, from model research to FDA 510(k) evidence and commercial release, and owns the company's 2D caries detection model, used by more than 50,000 clinicians in 120+ countries.
+Hippolyte Mayard is a Senior Machine Learning Scientist at [Pearl AI](https://www.hellopearl.com/), the first dental-AI company cleared by the FDA for both 2D and 3D imaging. He is the technical owner of its 3D CBCT pathology and anatomy program, from model research to release, and owns the 2D caries detection model, in a platform used by more than 50,000 clinicians in 120+ countries.
 
 His work sits at the point where computer-vision research becomes a regulated medical device: model and data design, operating-point selection for different clinical users, clinical validation on locked test sets, FDA 510(k) technical documentation, and production deployment. Before Pearl he was the founding deep-learning engineer at [Allisone.ai](https://www.allisone.ai/), where he built the first models of the product behind the company's €10M seed round, and a research engineer at [INRIA](https://team.inria.fr/epione/) (Epione) on cone-beam CT reconstruction.
 
