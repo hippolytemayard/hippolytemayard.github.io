@@ -5,7 +5,6 @@ head_title: "Hippolyte Mayard — Senior Machine Learning Scientist, Medical Ima
 permalink: /
 job_title: Senior Machine Learning Scientist
 works_for: Pearl AI
-visitor_map_src: "https://mapmyvisitors.com/map.js?cl=0a78d8&w=180&t=n&d=srncnzdP_Lyw0GnjEMFSAewygtNHmp17ajsJPuG2plU&co=313368&cmn=218921&cmo=ffae53"
 
 profile:
   image: prof_pic.jpg
